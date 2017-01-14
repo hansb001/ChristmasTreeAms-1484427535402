@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ChristmasTreeAms
+  host: ChristmasTreeAms
+  disk_quota: 1024M
+  services:
+  - ChristmasTreeAms-cloudantNoSQLDB
+  - Tone Analyzer-uv
